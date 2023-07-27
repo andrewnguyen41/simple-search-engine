@@ -85,10 +85,15 @@ public class Crawler {
 		
 		Gson gson = new Gson();
 		String json = gson.toJson(pagesWordCountMap);
-
 		FileWriter writer = new FileWriter("./json/pagesWordCount.json");
 		writer.write(json);
 		writer.close();
+		
+		String spellCheckJson = gson.toJson(SpellChecker.dic);
+		FileWriter spellCheckWriter = new FileWriter("./json/spellCheckDictionary.json");
+		spellCheckWriter.write(spellCheckJson);
+		spellCheckWriter.close();
+		
 		System.out.println("Crawl Successfully!!");
 	}
 	
