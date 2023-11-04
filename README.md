@@ -1,7 +1,7 @@
 # Simple Search Engine
 A simple search engine with following features: 
 - Extract html: Jsoup
-- Text preprocessing: Regex, stop words removing, stemming,
+- Text preprocessing: Regex, stop words removing, spell checking, stemming
 - Search: Edit distance algorithm,
 - Caching: store recent results in memory cache
 
