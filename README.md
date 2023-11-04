@@ -1,5 +1,9 @@
 # Simple Search Engine
-A simple search engine extracting html with Jsoup, text preprocessing via Stemming, edit distance search, and caching for recent results
+A simple search engine with following features: 
+- Extracting html: Jsoup
+- Text preprocessing: Regex, stop words removing, stemming,
+- Search: Edit distance algorithm,
+- Caching: store recent results in memory cache
 
 # Flow
 ![Implementation](./flow.png)
