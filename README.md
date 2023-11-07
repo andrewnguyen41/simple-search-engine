@@ -1,6 +1,6 @@
 # Simple Search Engine
 
-This is a basic search engine designed to efficiently retrieve relevant information from HTML documents. It employs several key features to enhance search accuracy and speed.
+This is a basic search engine designed to efficiently retrieve relevant information from HTML documents. It contains several key features to enhance search accuracy and speed.
 
 ## Features
 
