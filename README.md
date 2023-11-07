@@ -7,12 +7,12 @@ This is a basic search engine designed to efficiently retrieve relevant informat
 - **HTML Extraction:** Utilizes Jsoup, a Java library for parsing HTML, to extract text content from web pages.
 
 - **Text Preprocessing:**
-  - **Regex:** Employs regular expressions to clean and format the extracted text.
+  - **Regex:** Using regular expressions to clean and format the extracted text.
   - **Stop Words Removal:** Filters out common, uninformative words to focus on meaningful content.
   - **Spell Checking:** Corrects typos and misspelled words, improving search results.
   - **Stemming:** Reduces words to their root form for better search matching.
 
-- **Search Algorithm:** Utilizes the Edit Distance algorithm to find similar strings, enhancing search robustness.
+- **Search Algorithm:** Utilizes the Edit Distance algorithm to find similar strings.
 
 - **Caching:** Recent search results are stored in an in-memory cache, improving response times for frequently searched queries.
 
